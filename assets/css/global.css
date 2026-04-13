@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-text-secondary: rgba(121, 123, 134, 1);
+    --color-btn-secondary: rgba(0, 105, 180, 1)
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+    body{
+        margin: 0 80px;
+    }
+}
